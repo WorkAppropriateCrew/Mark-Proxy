@@ -5,20 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node proxy/proxy.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WorkAppropriateCrew/Mark-Proxy.git"
+    "start": "nodemon proxy/proxy.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/WorkAppropriateCrew/Mark-Proxy/issues"
-  },
   "homepage": "https://github.com/WorkAppropriateCrew/Mark-Proxy#readme",
   "dependencies": {
     "express": "^4.17.1",
     "http-proxy": "^1.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
