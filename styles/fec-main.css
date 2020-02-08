@@ -1,0 +1,25 @@
+.fec-grid-container {
+  display: grid;
+  grid-template-columns: 500px auto auto;
+}
+
+.fec-search {
+  grid-column: 1 / span 3;
+}
+
+.fec-reviews {
+  grid-column: 1 / span 3;
+}
+
+.fec-description {
+  min-width: 250px;
+}
+
+.fec-checkout {
+  max-width: 350px;
+
+}
+
+.fec-image {
+}
+
